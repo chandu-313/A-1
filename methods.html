@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="myp"></p>
+    <p id="myp1"></p>
+    <p id="myp2"></p>
+    <script>
+        var fruits=[
+            "mango", "apple", "watermelon", "banana", "coconut"
+        ];
+        document.getElementById("myp").innerHTML= fruits.join("-");
+        fruits.pop();
+        document.getElementById("myp1").innerHTML=fruits;
+        fruits.pop();
+        document.getElementById("myp2").innerHTML=fruits;
+    </script>
+</body>
+</html>
